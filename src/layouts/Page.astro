@@ -1,0 +1,15 @@
+---
+import Layout from './Base.astro';
+
+export let content: {
+    description: string,
+    section: string,
+    title: string,
+}
+---
+
+<Layout title={content.title} description={content.description} section={content.description}>
+    <h1>{content.title}</h1>
+
+    <slot />
+</Layout>

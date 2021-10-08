@@ -1,0 +1,38 @@
+---
+import Footer from '../components/Footer.astro';
+import MainHead from '../components/MainHead.astro';
+import Nav from '../components/Nav.astro';
+import OffcanvasInfo from '../components/OffcanvasInfo.astro';
+import Scripts from '../components/Scripts.astro';
+import Loader from '../components/Loader.astro';
+import Section from '../components/Section.astro';
+import metadata from '../data/metadata.json';
+
+export let description = metadata.description;
+export let title = metadata.title;
+export let section: string;
+---
+
+<html lang="en">
+<head>
+	<MainHead title={title} />
+</head>
+<body>
+	<div class="content-wrapper">
+		
+		<header class="wrapper bg-soft-primary">
+			<Nav />
+			<OffcanvasInfo />
+		</header>
+
+		<slot />
+		
+	</div>
+	
+	<Footer />
+	
+	<Scripts />
+	
+	<Loader />
+</body>
+</html>

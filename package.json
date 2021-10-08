@@ -1,0 +1,28 @@
+{
+  "name": "astro-netlify-cms",
+  "version": "0.0.1",
+  "description": "Astro & Netlify starter template",
+  "scripts": {
+    "start": "astro dev",
+    "build": "astro build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/navillus-bv/demo-astro-netlify-cms"
+  },
+  "author": {
+    "name": "Giulio Zanchetta",
+    "email": "zank@outlook.it",
+    "url": "https://zank.it"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zk-g/astro-netlify-cms/issues"
+  },
+  "homepage": "https://github.com/zk-g/astro-netlify-cms",
+  "devDependencies": {
+    "astro": "latest",
+    "luxon": "^1.27.0",
+    "slugify": "^1.5.3"
+  }
+}
