@@ -22,7 +22,7 @@
   "homepage": "https://github.com/zk-g/astro-netlify-cms",
   "devDependencies": {
     "astro": "latest",
-    "luxon": "^1.27.0",
+    "luxon": "^1.28.1",
     "slugify": "^1.5.3"
   }
 }
